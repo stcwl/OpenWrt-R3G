@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: R3G
+name: R3G-SSR
 
 on:
   repository_dispatch:
