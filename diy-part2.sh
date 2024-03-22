@@ -12,4 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.32.1/g' package/base-files/files/bin/config_generate
-sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefil
+sed -i 's#GO_PKG_TARGET_VARS.*# #g' ./feeds/small/v2dat/Makefile
+sed -i 's#GO_PKG_TARGET_VARS.*# #g' ./package/feeds/small/v2dat/Makefile
