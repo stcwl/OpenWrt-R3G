@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: After go1.22
+name: Xiaomi-r3g
 
 on:
   repository_dispatch:
